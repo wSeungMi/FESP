@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="text/javascript">
+    // console.log('Hello Javascript🙌 - 1');
+
+    // let btn = document.querySelector('button');
+    // btn.addEventListener('click', event => {
+    //   console.log('버튼 클릭', event.clientX, event.clientY);
+    // });
+
+
+    // window.onload 메서드 : JS 문서가 준비된 상황 이후에 실행되도록 실행순서를 미뤄줌
+    window.onload = function () {
+      console.log('Hello Javascript🙌 - 4');
+      let btn = document.querySelector('button');
+      btn.addEventListener('click', event => {
+        console.log('버튼 클릭', event.clientX, event.clientY);
+      });
+    };
+  </script>
+  <script src="ex01-01.js"></script>
+</head>
+
+<body>
+  <h1>Hello Javascript🔥 - 3</h1>
+  <button>클릭</button>
+
+  <script type="text/javascript">
+    console.log('Hello Javascript🏃‍♀️ - 3');
+
+    // let btn = document.querySelector('button');
+    // btn.addEventListener('click', event => {
+    //   console.log('버튼 클릭', event.clientX, event.clientY);
+    // });
+  </script>
+</body>
+
+</html>
